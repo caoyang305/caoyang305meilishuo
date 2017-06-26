@@ -1,0 +1,139 @@
+#lf{float: left}
+.wqj-content{
+    height:661px;
+    font-size:16px;
+    font-family:"宋体" ;
+}
+a{color:black}
+.wqj-sou{
+    color:#ffaac7;
+}
+.wqj-bag{
+    font-weight: bold;
+}
+ li {
+    font-size:13px;
+}
+.wqj-nav{
+    border-bottom:2px solid #fc689a;
+}
+.wqj-nav ul{
+    padding-top: 52px;
+    padding-bottom:10px;
+}
+.wqj-nav ul li{
+    float:left;
+    margin-right:27px;
+    margin-left:15px;
+}
+.wqj-nav ul .wqj-sou{
+    color:#ffaac7;
+}
+.wqj-sidebar ul{
+    width:210px;
+    /*margin:0 0 0 15px;*/
+    padding: 10px 15px 10px 15px;
+
+    border-top:1px dashed gainsboro;
+    border-width
+}
+.wqj-sidebar {
+    border:1px solid gainsboro ;
+    height:574px;
+    width:238px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+.wqj-sidebar ul>div{
+    width: 960px;
+    height: 420px;
+    position: absolute;
+    left: 239px;
+    top: -1px;
+    background-color: #f0f0f0;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+.wqj-sidebar ul>div h3{
+    margin-top: 150px;
+}
+.wqj-sidebar ul>div a:hover{
+    color:#ff689b;
+}
+.wqj-sidebar ul li{
+    font-size: 13px;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.wqj-sidebar ul li a{
+    margin-right: 10px;
+}
+.wqj-scroll {
+    width:960px;
+    position: relative;
+    overflow: hidden;
+}
+.wqj-tab img{
+    float: left;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.wqj-column{
+    height:576px;
+}
+.wqj-main .wqj-sidebar .border1{
+    border-top:0;
+}
+.wqj-img{
+    height: 420px;    
+}
+
+/*xn-gai*/
+#wqjup,#wqjnext{
+    width: 34px;
+    height:40px;
+    background-color: #000;
+    opacity: 0.3;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+#wqjup{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top:-25px; 
+}
+#wqjnext{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top:-27px; 
+}
+#wqjspdiv{
+    width: 960px;
+    position: absolute;
+    top:93%;
+    left: 45%;
+    height:30px;
+    margin-top:-3px;
+    text-align: center;
+    /*background-color: red;  */
+}
+#wqjspdiv>span{
+    display: block;
+    border: 6px solid red;
+    border-radius: 50%;
+    margin: 0 13px 0 12px;
+
+}
+#wqjspdiv>.spshow{
+    width:10px;
+    height: 10px;
+    border: 4px solid red;
+    margin:-3px 13px 0 5px;
+}

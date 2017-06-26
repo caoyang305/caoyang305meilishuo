@@ -1,0 +1,226 @@
+*{ margin:0; padding:-0; }
+a{ text-decoration:none; }
+li{ list-style:none; }
+img{ vertical-align:top; }
+.fl{ float:left; }
+.fr{ float:right; }
+.clearFix:after{ content:''; display:block; clear:both; }
+body{ font-size:12px; font-family:'ËÎÌå';  }
+a{ color:#333; }
+.wrapper{ width:1200px; margin:0 auto; }
+
+.xd-top{
+    border-bottom: 1px solid #b7b7b7;
+    background-color: #f0f0f0;
+}
+
+li img {
+    vertical-align: middle;
+}
+.xd-top ul{
+    margin-top: 5px ;
+    /*overflow: hidden;*/
+}
+.xd-top a:hover{
+    color:#ff689b;  
+}
+.xd-top ul>li {
+    float: left;
+    border-right: 1px dotted #b7b7b7;
+    margin-right: -1px;
+    padding: 0 20px;
+}
+.xd-top #xdtopdown{
+    position: relative;
+}
+#xdtopdiv{
+    background-color: #f0f0f0;
+    position: absolute;
+    left:18px;
+    top: 20px;
+    padding:10px 10px; 
+    border:1px solid #b7b7b7;
+    border-top:0;
+    display: none;
+}
+#xdtopdiv>i{
+    font-style: normal;
+    display: block;
+    line-height: 24px;
+}
+.xd-top #xdtophelp{
+    position: relative;
+}
+#xdtopdiv1{
+    background-color: #f0f0f0;
+    position: absolute;
+    left:10px;
+    top: 20px;
+    padding:10px 10px; 
+    border:1px solid #b7b7b7;
+    border-top:0;
+    display: none;
+}
+#xdtopdiv1>i{
+    font-style: normal;
+    display: block;
+    line-height: 24px;
+}
+.xd-top .menu {
+    position: absolute;
+    display: none;
+    border: 1px solid red;
+}
+
+ .logo {
+    margin-top: 40px;
+    background: url("../images/Logo.jpg") no-repeat;
+    width: 277px;
+    height: 43px;
+    text-indent: -9999em;
+}
+
+
+.xudun-search {
+    width: 522px;
+    height: 59px;
+    margin-left: 84px;
+    margin-top: 22px;
+}
+
+.seach {
+    width: 522px;
+    height: 25px;
+}
+
+.seach-1 {
+    width: 55px;
+    height: 25px;
+    background: #ff689b;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.search-2 {
+    width: 55px;
+    height: 25px;
+    line-height: 25px;
+    background: #f2f2f2;
+    text-align: center;
+    cursor: pointer;
+}
+.xudun-search .search-input{
+    border:2px solid #ff689b;
+    padding:0; 
+}
+#txt{
+    /*margin-top:0;*/
+    width:444px;
+    height:26px;
+    line-height: 26px;
+    border:0;
+    float:left;
+    outline: none;
+}
+#btn{
+    width: 70px;
+    height:30px;
+    background-image: url(../images/sousuo.jpg);
+    border:0;
+    float: left;
+    cursor: pointer;
+}
+.search-bottom {
+    width: 522px;
+    height: 30px;
+}
+
+.search-bottom-1 {
+    width: 450px;
+    height: 30px;
+    border: 2px solid #ff689b;
+
+}
+
+.search-bottom a {
+    width: 68px;
+    height: 34px;
+    background: #ff689b;
+}
+.higo{
+    margin-top: 40px;
+    text-indent: -9999em;
+    background: url("../images/HIGO.jpg");
+    width: 143px;
+    height: 45px;
+}
+.xd-footer{
+    background: #f5f5f5;
+}
+.xd-footer span{
+    font-size: 16px;
+    display: block;
+}
+.xd-footer>div{
+    line-height: 25px;
+}
+.footer-tou3,.footer-tou4,.footer-tou5,.footer-tou6,.footer-tou7{
+    margin-top: 35px;
+    margin-left: 52px;
+}
+.footer-tou1 i{
+    background: url("../images/tell.jpg")no-repeat;
+    width: 35px;
+    height: 36px;
+    margin-top: 35px;
+}
+.footer-tou2{
+   margin-top: 35px;
+    margin-left: 15px ;
+    margin-top: 35px;
+    margin-left: 15px ;
+}
+.footer-tou6 strong,.footer-tou6 i,.footer-tou6 em{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.footer-tou span{
+    font-weight: bold;
+}
+.footer-tou6 i{
+    background: url("../images/xl.jpg");
+}
+.footer-tou6 strong{
+    background: url("../images/space.jpg");
+}
+.footer-tou6 em{
+    background: url("../images/tx.jpg");
+}
+.footer-tou7 i{
+    background: url("../images/ewm.jpg");
+    width: 120px;
+    height: 116px;
+    display: block;
+}
+.footer-bottom {
+    margin-top: 30px;
+}
+.footer-bottom  p>a{
+    text-indent: 2px;
+}
+.footer-bottom .dibu{
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+
+}
+.dibu .dibu-right{
+    float: right;
+    margin-right: 30px;
+}
+.dibu>a{
+    margin-left: 10px;
+}
